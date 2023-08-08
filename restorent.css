@@ -1,0 +1,324 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url("https://www.laboccapizzeria.com/wp-content/uploads/2022/11/pasted-image-0-3-2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left:400px;
+    width: 700px;
+    top: fix;
+    
+}
+.b{
+    display: inline-block;
+    margin: 15px 30px;
+    margin-top:10%;
+    font-size: large;
+    font-family:monospace;
+}
+.link{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(245, 245, 242);
+    font-size:x-large;
+
+}
+.link:hover{
+    color: red;
+    font-size:xx-large;
+}
+
+.heading{
+    font-size:70px;
+    color: rgb(252, 252, 250);
+    margin-top:15%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading span{
+    color:yellow;
+}
+.para{
+    font-size: 30px;
+    margin-top:1%;
+    text-align: center;
+    color:rgb(2, 2, 2);
+    font-family:fantasy;
+}
+.para span{
+    color: #fcfbfb;
+    font-family: fantasy;
+}
+.ar{
+    background-color: rgb(2, 2, 2);
+    color: #fbfafa;
+    padding: 5px 15px;
+    border-radius:5px;
+    font-size:30px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    box-shadow: 6px 6px 12px;
+    text-decoration: none;
+    margin-top:7%;
+    margin-left:650px;
+}
+.ar:hover{
+    color: rgb(255, 240, 73);
+}
+
+.heading2{
+    color: #020202;
+    margin-top:17%;
+    text-align: center;
+    font-size: x-large;
+    font-family: monospace;
+    padding: 5px 15px;
+
+}
+.list-1{
+    width:400px;
+    height:500px;
+background-color: #000;
+float:left;
+padding:5px;
+margin:35px;
+color: white;
+text-align: center;
+border-radius: 10px;
+}
+.list-1:hover{
+    background-color: rgb(237, 53, 53);
+    box-shadow: 0px 10px 10px black;
+}
+
+.piz{
+    margin-left: 15px;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+}
+
+.img2{
+    width: 260px;
+    height: 160px;
+}
+.img3{
+    width: 300px;
+    height: 200px;
+}
+
+.rev{
+    color: rgb(250, 247, 247);
+    margin-top:50%;
+    text-align: center;
+    background-color: #1b1919;
+    font-size:x-large;
+    font-family:monospace;
+
+}
+.yu{
+    background-color: white;
+    color: #000;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: fantasy;
+}
+.checkbox{
+    width: 20px;
+}
+.box{
+    font-size:40px;
+    margin-left: 30px;
+    border: 100px;
+
+    
+}
+.uy{
+    font-size: x-large;
+    border-style: solid;
+    border-radius: 5px;
+}
+.date{
+    box-sizing:initial;
+    font-size:xx-large;
+    margin-left:40%;
+    margin-top: -6%;
+    border:100px;
+}
+.time{
+    box-sizing: unset;
+    font-size:xx-large;
+    margin-left:70%;
+    margin-top: -5%;
+    border: 3px ;
+    
+
+}
+.im{
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 150px;
+    
+}
+.im:hover{
+    color:rgb(4, 4, 4);
+    border-style:double;
+    box-shadow:0px 10px 10px rgb(237, 5, 5);
+    font-size: 20px;
+}
+.im1{
+    width:267px;
+    border: 3px solid black;
+}
+.im2{
+    width: 200px;
+    border: 3px solid black ;
+    
+}
+.im3{
+    width: 200px;
+    border: 3px solid black;
+}
+
+.text{
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-left:85%;
+    margin-top: -20%;
+    background-color: #0f0f0f;
+    color: white;
+    margin-top: -60px;
+    width: 200px;
+    height: 40px;
+}
+.text:hover{
+    color: red;
+}
+.fat{
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    font-size: large;
+    
+}
+.img4{
+    margin-top: 10%;
+    padding: 5px 15px;
+    background-color: #fdfcfc;
+}
+
+
+#reservation{
+    background-color: #fcfbfb;
+    background-size:contain;
+    color: rgb(5, 5, 5);
+    
+
+}
+.event{
+    text-align: center;
+    color: rgb(253, 249, 249);
+
+}
+.tt{
+    background-color: #1e1a1a;
+    font-size: xx-large;
+    font-family:monospace;
+    margin-top:40%;
+}
+.ee{
+    color: black;
+    font-family: fantasy;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.ww{
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px 15px;
+    margin-top: 100px;
+}
+
+.con{
+    text-align: center;
+}
+.contact{
+    border: 1px solid black;
+    font-size:large;
+    text-decoration: none;
+    color: #060606;
+    border-radius: 3px;
+    padding: 5px 15px;
+    margin-top: 100px;
+}
+.contact:hover{
+    background-color: rgb(224, 221, 221);
+}
+.hours{
+    background-color: #212020;
+    
+
+}
+.qq{
+    margin-left: 30px;
+    font-size: xx-large;
+    margin-top:10px;
+    color: white;
+    text-align: center;
+    
+}
+.zz{
+    margin-left: 100px;
+    font-size: large;
+    color: white;
+    margin-top: 50px;
+}
+.map1{
+    color: white;
+    margin-top: -100px;
+    font-size: large;
+
+}
+.loc{
+    margin-left: 50%;
+    margin-top: -60%;
+    text-align: center;
+    padding: 5px 15px;
+}
+.pp{
+    display: flex;
+    display:inline-block;
+    justify-content: space-between;
+    border-radius: 80%;
+    font-size: 2rem;
+    margin-left: 40px;
+    
+
+}
+.pp :hover{
+    color: red;
+    font-size: 2.5rem;
+}
+.headding{
+    margin-top: 50px;
+    margin-left: 15px;
+    color: white;
+}
+.icon i{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
